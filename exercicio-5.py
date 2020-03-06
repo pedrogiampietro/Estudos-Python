@@ -1,7 +1,7 @@
 print('------- DESAFIO 05 --------')
 
-n1 = int(input('Digite um número '))
-n2 = int(input('Digite outro número '))
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
 s = n1 + n2
 sucessor = (n1 + n2) + (1)
 antecessor = (n1 + n2) - (1)
@@ -77,7 +77,7 @@ print('Você então precisará de {:.1f} litros de tinta'.format(tinta))
 print('------- DESAFIO 12 --------')
 
 product = float(input('Qual é o preço do produto? '))
-discount = product-(product*0.05)
+discount = product - (product * 5/100)
 
 print('O valor do produto é de {} e com desconto de 5% fica acessivel á {}'.format(product, discount))
 
@@ -85,7 +85,7 @@ print('O valor do produto é de {} e com desconto de 5% fica acessivel á {}'.fo
 print('------- DESAFIO 13 --------')
 
 salario = float(input('Digite seu salário '))
-newsalario = salario+(salario*0.15)
+newsalario = salario + (salario * 15 / 100)
 
-print('Seu salário é {} e seu novo salário com 15% de aumento é {}'.format(salario, newsalario))
+print('Seu salário é {:.2f} e seu novo salário com 15% de aumento é {:.2f}'.format(salario, newsalario))
 
